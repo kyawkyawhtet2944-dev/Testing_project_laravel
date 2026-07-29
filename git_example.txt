@@ -1,0 +1,56 @@
+to create git repo
+=======================
+git init
+
+if you want to check the brach you are
+========================
+
+git branch -a
+
+if you want to move modified files into staging state
+========================
+
+git add filename or . (. means all files)
+
+if you want to commit all files in staging state
+==========================
+
+git commit -m "text".
+
+to check the history of commit
+==========================
+
+git log --oneline
+
+to create a branch
+======================
+
+git branch branch-name
+
+
+to switch to branch
+====================
+
+git checkout branch-name
+
+
+to merge branches into master
+=========================
+
+git merge branch-name
+
+to see if there is remote name in the project
+===================
+
+git remote -v
+
+to set a nickname or something like that
+======================
+
+git remote add origin https://github.com/kyawkyawhtet2944-dev/Testing_project_laravel.
+
+
+to upload local file into github
+=====================================
+
+git push origin master
