@@ -54,3 +54,19 @@ to upload local file into github
 =====================================
 
 git push origin master
+
+to remove the branch uploaded to github
+==========================================
+
+git branch -D branch-name --> delete in git
+
+git push origin --delete branch-name ---> delete in github
+
+Note: If you want to delete the branch, you need to go to master branch.
+
+Download repo or clone
+=========================
+
+create a folder and open terminal
+
+type --> git clone url-link (u can get it in github)
